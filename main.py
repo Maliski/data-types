@@ -24,3 +24,14 @@ print ( 123 + 345) #makes a calculation because it is not trying to read a strin
 
 True
 False
+
+#type error if you give number instead of string
+#len(1234) 
+#len doesnt like intergers
+num_char = len(input("What is your name?"))
+#print("Your name has "+num_char + "characters.")
+
+print(type(num_char)) #type check funtion
+
+
+type casting 
